@@ -1,27 +1,27 @@
-![RDS](https://github.com/user-attachments/assets/c1f4c1bf-83f5-4ab3-a238-7e3e30cdef0d)
+# AWS High-Availability Database Tier Solution
 
-# AWS High-Availability Database Tier
-
-This project demonstrates the design and implementation of a highly available and fault-tolerant database tier for a multi-tier web application. The solution also supports complex reporting queries without impacting the primary database performance and ensures encryption in transit.
+This project demonstrates the design and deployment of a highly available, fault-tolerant database tier for a multi-tier web application. The setup ensures reporting queries do not impact the primary database performance and includes encryption in transit to maintain security.
 
 ## Project Overview
 
 The setup includes:
-- **Highly Available Database**: Multi-AZ RDS deployment for redundancy.
-- **Support for Reporting Tools**: Ensures reporting queries do not affect main database performance.
-- **Encryption in Transit**: Communication between the application and the database is secured.
-- **Minimal Database Overheads**: Designed for minimal ongoing management.
+- **Highly Available Database**: Multi-AZ RDS deployment with read replicas.
+- **Reporting Optimization**: Separation of reporting queries to ensure minimal impact on the primary database.
+- **Encryption**: Data in transit between the application and the database is encrypted.
+- **Minimal Overheads**: The solution is designed to reduce ongoing maintenance and overhead.
+
+![RDS](https://github.com/user-attachments/assets/c1f4c1bf-83f5-4ab3-a238-7e3e30cdef0d)
 
 # Project Requirements
 
-1. **Database Design**:
-   - Must be highly available and fault tolerant for a multi-tier web application.
+1. **Database Tier Design**:
+   - Must be highly available and fault-tolerant for a multi-tier web application.
 2. **Support for Reporting Tools**:
-   - The database should handle complex queries without impacting main performance.
-3. **Encryption**:
-   - Communication between the application and the database must be encrypted in transit.
-4. **Performance**:
-   - Ensure minimal ongoing database overhead while optimizing for reporting needs.
+   - Ensure that reporting queries run against the database without impacting its primary performance.
+3. **Encryption in Transit**:
+   - Implement SSL/TLS for encrypted data transfer between the application and the database.
+4. **Minimal Ongoing Overheads**:
+   - Optimize the design to reduce maintenance.
 
 # Solution Overview
 
