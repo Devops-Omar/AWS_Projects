@@ -1,4 +1,4 @@
-# AWS High-Availability Database Tier Solution
+# AWS High-Availability Database Tier 
 
 This project demonstrates the design and deployment of a highly available, fault-tolerant database tier for a multi-tier web application. The setup ensures reporting queries do not impact the primary database performance and includes encryption in transit to maintain security.
 
