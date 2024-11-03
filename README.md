@@ -1,7 +1,8 @@
-![(101) Pro](https://github.com/user-attachments/assets/f3b20cc8-f865-4f17-a4ed-69bc0f922bb3)
+
+![(101) Pro2](https://github.com/user-attachments/assets/4e280d26-5309-476c-be6a-69ce4e01cc05)
+
 # AWS Course Materials
 
-This repository contains organized notes and resources for AWS certification courses, covering various topics such as cloud computing fundamentals, security, machine learning, and architectural best practices.
 
 ---
 
