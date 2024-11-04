@@ -1,6 +1,3 @@
-
-![(102)](https://github.com/user-attachments/assets/e7e4d307-0223-443c-90e7-c9443570c628)
-
 # AWS Multi-Tier Web Application Setup
 
 This project demonstrates the setup of a multi-tier web application infrastructure in AWS. It includes the creation of a VPC, public and private subnets, EC2 instances, security configurations, and access control for developers and administrators.
@@ -20,6 +17,10 @@ The setup includes:
 - **Security and Access Control**:
   - Detailed security measures at Layer 4 for subnet and instance-level protection.
   - Programmatic access configuration for developers and administrators.
+  - 
+![(102)](https://github.com/user-attachments/assets/e7e4d307-0223-443c-90e7-c9443570c628)
+
+
 
 ## Requirements
 
